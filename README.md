@@ -8,12 +8,17 @@ install istanbul globally
 npm install -g istanbul
 ```
 
-# Test with Mocha
+## How to start
+```
+npm install
+```
+
+## Test with Mocha
 ```
 npm test
 ```
 
-# Code Coverage
+## Code Coverage
 ```
 npm run coverage
 ```
