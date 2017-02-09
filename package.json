@@ -1,0 +1,19 @@
+{
+  "name": "node-test-coverage",
+  "version": "1.0.0",
+  "description": "sample project for node test and code coverage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon ./",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "author": "Shafeeq",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
